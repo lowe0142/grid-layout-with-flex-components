@@ -30,3 +30,9 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
