@@ -11,25 +11,25 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    order: 1;
 }
-
   .emojis {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    
   }
-
   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
   }
-  
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    display: flex;
   }
-  
   .emoji a {
     text-decoration: none;
     background-color: #781BAA;
@@ -37,16 +37,14 @@ body {
     padding: 1rem;
     border-radius: 8px;
     display: flex;
-    flex-wrap: wrap;
     margin-top: 50px;
   }
-  
   .icon {
     font-size: 4rem;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
 
 
 
